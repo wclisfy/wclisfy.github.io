@@ -22,8 +22,8 @@ nav:
     url: /cv/
   - title: "Research"
     url: /research/
-  - title: "Blog"
-    url: /blog/
+#  - title: "Blog"
+#    url: /blog/
   - title: "Contact"
     url: /contact/
 
@@ -31,7 +31,7 @@ nav:
 author:
   name   : "Willis Wong"
 #  avatar : "/assets/images/avatar.png"
-  bio    : "Linguist working on morphology and its interfaces."
+  bio    : "A linguist working on morphology and its interfaces."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
