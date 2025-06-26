@@ -1,53 +1,55 @@
-# Name of your workflow
+# .github/workflows/github-pages.yml (The final, robust version)
+
 name: Build and Deploy Jekyll Site to GitHub Pages
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push events but only for the "main" branch
   push:
     branches:
       - main
-
-  # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build-and-deploy"
   build-and-deploy:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # ⭐️ ADD THIS PERMISSIONS BLOCK ⭐️
-    # This grants the workflow write permissions to the repository's contents
     permissions:
       contents: write
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # 1. Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-out your repository
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Sets up Ruby and caches dependencies for speed
+      # Sets up Ruby
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # The version of Ruby you want to use
-          bundler-cache: true # Automatically runs 'bundle install' and caches gems
+          ruby-version: '3.1'
+          # bundler-cache: true # We are replacing this with a manual cache step for more control.
 
-      # 3. Builds the Jekyll site
+      # Sets up a cache for gems to speed up future builds
+      - name: Setup Gem Cache
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      # Manually installs all gems from the Gemfile
+      - name: Install gems
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
+      # Builds the Jekyll site
       - name: Build Jekyll site
         run: bundle exec jekyll build
-        # This sets an environment variable to ensure GitHub Pages specific settings are used
         env:
           JEKYLL_ENV: production
 
-      # 4. Deploys the built site to the 'gh-pages' branch
+      # Deploys the built site to the gh-pages branch
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          # This token is provided by GitHub Actions automatically
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # The folder that contains your built site
           publish_dir: ./_site
