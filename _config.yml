@@ -19,6 +19,7 @@ plugins:
 author:
   name: "Willis Wong"
   bio: "A linguist working on morphology and its interfaces."
+  location: "Hong Kong"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
