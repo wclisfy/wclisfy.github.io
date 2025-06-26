@@ -231,7 +231,7 @@ button::-moz-focus-inner {
   padding: 0 0 18px 10px;
   color: #fff;
   font-style: normal;
-  font-size: 14px;
+  font-size: 28px;
   font-family: Georgia, Times, serif;
 }
 .mfp-close:hover, .mfp-close:focus {
