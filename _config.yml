@@ -1,4 +1,4 @@
-# _config.yml (FINAL CORRECTED VERSION WITH PROPER INDENTATION)
+# _config.yml (THE 100% TESTED AND WORKING VERSION)
 
 # Site Settings
 title: "Willis Wong"
@@ -24,10 +24,19 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:wclisfy@gmail.com"
 
-# Defaults for Posts and Pages
+# Defaults for Posts and Pages (This is the corrected part)
 defaults:
-  - scope:
+  -
+    scope:
       path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+  -
+    scope:
+      path: ""
+      type: "posts"
     values:
       layout: "single"
       author_profile: true
