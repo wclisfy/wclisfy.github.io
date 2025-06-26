@@ -10,8 +10,6 @@ author_profile: true
 
 **BA in Linguistics** (Fist Class), The Chinese University of Hong Kong
 
----
-
 ## Conference Presentations
 
 **Wong, W. C. L.** (2025). A Reduplicative Compass: Navigating Ambiguous Labels in Cantonese Coordination Morphology.  
