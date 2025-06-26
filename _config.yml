@@ -10,6 +10,9 @@ google_fonts:
   - name: "Merriweather"
     weights: "400,700"
 
+plugins:
+  - jekyll-include-cache
+
 author:
   name: "Willis Wong"
   avatar: "/assets/images/avatar.png"
@@ -22,7 +25,6 @@ author:
       icon: "fab fa-bluesky"
       url: "https://bsky.app/profile/yourname.bsky.social"
 
-# Navigation bar
 nav:
   - title: "About"
     url: /about/
