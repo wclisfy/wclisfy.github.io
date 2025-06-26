@@ -24,6 +24,12 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:wclisfy@gmail.com"
+    - label: "@wclis_fy"
+      icon: "fas fa-instagram"
+      url: "https://www.instagram.com/wclis_fy/"
+    - label: "@sememeotics"
+      icon: "fas fa-instagram"
+      url: "https://www.instagram.com/sememeotics/"
 
 # Defaults for Posts and Pages (This is the corrected part)
 defaults:

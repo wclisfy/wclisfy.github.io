@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "My Resarch"
+title: "My Research"
 permalink: /research/
 author_profile: true
 ---
+Reduplication
