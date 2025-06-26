@@ -7,7 +7,7 @@ url: "https://wclisfy.github.io"
 baseurl: ""
 
 # Theme Settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", etc.
 plugins:
   - jekyll-feed

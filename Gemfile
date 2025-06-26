@@ -1,16 +1,12 @@
 # Gemfile
-
 source "https://rubygems.org"
 
-# Jekyll and its dependencies
-gem "jekyll", "~> 4.3.1"
+gem "jekyll", "~> 4.3.3"
+gem "minimal-mistakes-jekyll", "~> 4.27.1" # 雖然用 remote_theme，但加上有好處
 
-# The theme gem
-gem "minimal-mistakes-jekyll"
-
-# Plugins from your _config.yml
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-seo-tag", "~> 2.6"
+# Plugins
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
 gem "jekyll-include-cache"
 
 # Required for Jekyll 4 and Ruby 3+
