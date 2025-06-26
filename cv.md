@@ -1,1 +1,5 @@
-cv.md
+---
+layout: single
+title: "CV"
+permalink: /cv/
+---

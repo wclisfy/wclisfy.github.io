@@ -1,5 +1,5 @@
 ---
-layout: sidebar
-title: "Welcome"
+layout: single
+title: "About Me"
+permalink: /about/
 ---
-Hi
