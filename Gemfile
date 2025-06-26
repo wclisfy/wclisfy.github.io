@@ -1,8 +1,8 @@
-# Gemfile
+# Gemfile (Correct Version)
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
-gem "minimal-mistakes-jekyll", "~> 4.27.1" # 雖然用 remote_theme，但加上有好處
+gem "minimal-mistakes-jekyll", "~> 4.27.1"
 
 # Plugins
 gem "jekyll-feed"

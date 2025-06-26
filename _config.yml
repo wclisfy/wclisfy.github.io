@@ -1,14 +1,15 @@
-# _config.yml (Optimized Version)
+# _config.yml (Gem-based Method)
 
 # Site Settings
 title: "Willis Wong"
-description: "Personal academic website"
 url: "https://wclisfy.github.io"
 baseurl: ""
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
-minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", etc.
+theme: minimal-mistakes-jekyll  # <--- Use 'theme', not 'remote_theme'
+minimal_mistakes_skin: "contrast"
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -16,37 +17,17 @@ plugins:
 
 # Author Information
 author:
-  name   : "Willis Wong"
-  bio    : "A linguist working on morphology and its interfaces."
+  name: "Willis Wong"
+  bio: "A linguist working on morphology and its interfaces."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:wclisfy@gmail.com"
 
-# Navigation (Tells the theme which menu from _data/navigation.yml to use)
-masthead:
-  nav: "main" # Use the "main" menu in the top navigation bar
-
-sidebar:
-  nav: "main" # Use the "main" menu in the sidebar
-
 # Defaults for Posts and Pages
 defaults:
-  # _pages
   - scope:
-      path: ""
-      type: pages
+      path: "" # an empty string here means all files in the project
     values:
-      layout: single
-      author_profile: true # Show author profile on all pages
-      sidebar:
-        nav: "main" # Also apply sidebar nav to all pages
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
+      layout: "single"
       author_profile: true
-      sidebar:
-        nav: "main"
