@@ -9,7 +9,7 @@ classes: wide
 
 **MPhil in Linguistics**, The Chinese University of Hong Kong
 
-**BA in Linguistics** (Fist Class), The Chinese University of Hong Kong
+**BA in Linguistics** (First Class), The Chinese University of Hong Kong
 
 ## Conference Presentations
 
