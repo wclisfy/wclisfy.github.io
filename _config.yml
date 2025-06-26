@@ -48,17 +48,20 @@ sass:
 
 # 指定自定義樣式位置
 defaults:
-  -
-    scope:
+  # _posts
+  - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       layout: single
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
+      author_profile: true  # 你也可以決定文章要不要顯示
+      # ... 其他設定 ...
 
-# Minimal Mistakes 支援 custom CSS 預設會 include _sass/custom/custom.scss
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true  # <-- 在這裡加入，這會影響所有頁面
+      # ... 其他設定 ...
