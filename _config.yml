@@ -4,23 +4,28 @@ description: "Personal academic website of Willis Wong"
 url: "https://wclisfy.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "mint"
+minimal_mistakes_skin: "contrast"
 
 google_fonts:
   - name: "Merriweather"
     weights: "400,700"
 
+layout: sidebar
+
 plugins:
   - jekyll-include-cache
 
 author:
-  name: "Willis Wong"
-  avatar: "/assets/images/avatar.png"
-  bio: "Linguist working on morphosyntax and sound symbolism."
+  name   : "Willis Wong"
+  avatar : "/assets/images/avatar.png"  # 放你張頭像
+  bio    : "Linguist working on morphosyntax and sound symbolism."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:willis@something.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/wclisfy"
     - label: "BlueSky"
       icon: "fab fa-bluesky"
       url: "https://bsky.app/profile/yourname.bsky.social"
