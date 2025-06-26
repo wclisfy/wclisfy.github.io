@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog. For user pages, this is ofte
 url: "https://wclisfy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Remote Theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
 
