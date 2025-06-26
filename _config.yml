@@ -6,16 +6,14 @@ url: "https://wclisfy.github.io"
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint"
 
-# Google Fonts
 google_fonts:
   - name: "Merriweather"
     weights: "400,700"
 
-# Author Profile（正確放法：獨立段落，唔好放喺 nav 裡面）
 author:
-  name   : "Willis Wong"
-  avatar : "/assets/images/avatar.png"
-  bio    : "Linguist working on morphosyntax and sound symbolism."
+  name: "Willis Wong"
+  avatar: "/assets/images/avatar.png"
+  bio: "Linguist working on morphosyntax and sound symbolism."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
@@ -24,7 +22,7 @@ author:
       icon: "fab fa-bluesky"
       url: "https://bsky.app/profile/yourname.bsky.social"
 
-# Navigation Bar
+# Navigation bar
 nav:
   - title: "About"
     url: /about/
