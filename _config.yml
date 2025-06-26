@@ -1,6 +1,5 @@
-#title: "Willis Wong"
-#subtitle: "Linguist"
-#description: "Personal academic website of Willis Wong"
+# _config.yml (Corrected Version)
+
 url: "https://wclisfy.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -15,38 +14,23 @@ google_fonts:
 
 # 導覽列 menu bar
 nav:
-#  - title: "About"
-#    url: /about/
   - title: "CV"
     url: /cv/
   - title: "Research"
     url: /research/
-#  - title: "Blog"
-#    url: /blog/
   - title: "Contact"
     url: /contact/
 
-# ✅ author 應該喺 nav 之後，唔好入 nav
+# 作者簡介
 author:
   name   : "Willis Wong"
-#  avatar : "/assets/images/avatar.png"
   bio    : "A linguist working on morphology and its interfaces."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:wclisfy@gmail.com"
 
-header:
-  nav: true
-
-sidebar:
-  nav: "main"
-
-# 自定 CSS
-sass:
-  style: compressed
-
-# 指定自定義樣式位置
+# 全域預設值
 defaults:
   # _posts
   - scope:
@@ -54,14 +38,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true  # 你也可以決定文章要不要顯示
-      # ... 其他設定 ...
-
+      author_profile: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true  # <-- 在這裡加入，這會影響所有頁面
-      # ... 其他設定 ...
+      author_profile: true
