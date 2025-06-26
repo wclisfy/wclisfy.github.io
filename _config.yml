@@ -1,6 +1,6 @@
 #title: "Willis Wong"
 #subtitle: "Linguist"
-description: "Personal academic website of Willis Wong"
+#description: "Personal academic website of Willis Wong"
 url: "https://wclisfy.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -36,3 +36,9 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:wclisfy@gmail.com"
+
+header:
+  nav: true
+
+sidebar:
+  nav: "main"
