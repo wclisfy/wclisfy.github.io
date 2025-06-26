@@ -16,8 +16,8 @@ plugins:
 
 # 導覽列 menu bar
 nav:
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
   - title: "CV"
     url: /cv/
   - title: "Research"
