@@ -1,4 +1,4 @@
-# _config.yml (Gem-based Method)
+# _config.yml (FINAL CORRECTED VERSION WITH PROPER INDENTATION)
 
 # Site Settings
 title: "Willis Wong"
@@ -6,7 +6,7 @@ url: "https://wclisfy.github.io"
 baseurl: ""
 
 # Theme Settings
-theme: minimal-mistakes-jekyll  # <--- Use 'theme', not 'remote_theme'
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "contrast"
 
 # Plugins
