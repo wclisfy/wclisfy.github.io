@@ -30,12 +30,9 @@ nav:
 # ✅ author 應該喺 nav 之後，唔好入 nav
 author:
   name   : "Willis Wong"
-  avatar : "/assets/images/avatar.png"
-  bio    : "Linguist working on morphosyntax and sound symbolism."
+#  avatar : "/assets/images/avatar.png"
+  bio    : "Linguist working on morphology and its interfaces."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:willis@something.com"
-    - label: "BlueSky"
-      icon: "fab fa-bluesky"
-      url: "https://bsky.app/profile/yourname.bsky.social"
+      url: "mailto:wclis@gmail.com"
