@@ -4,15 +4,27 @@ description: "Personal academic website of Willis Wong"
 url: "https://wclisfy.github.io"
 
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "mint"
 
-minimal_mistakes_skin: "mint" # 你可以試下 "air", "sunrise", "mint", "dirt", etc
-
-# Fonts
-google_fonts: 
+# Google Fonts
+google_fonts:
   - name: "Merriweather"
     weights: "400,700"
 
-# 顯示嘅 menu bar
+# Author Profile（正確放法：獨立段落，唔好放喺 nav 裡面）
+author:
+  name   : "Willis Wong"
+  avatar : "/assets/images/avatar.png"
+  bio    : "Linguist working on morphosyntax and sound symbolism."
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:willis@something.com"
+    - label: "BlueSky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/yourname.bsky.social"
+
+# Navigation Bar
 nav:
   - title: "About"
     url: /about/
@@ -24,15 +36,3 @@ nav:
     url: /blog/
   - title: "Contact"
     url: /contact/
-
-  author:
-  name   : "Willis Wong"
-  avatar : "/assets/images/avatar.png"
-  bio    : "Linguist working on morphosyntax and sound symbolism."
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:willis@something.com"
-    - label: "BlueSky"
-      icon: "fab fa-bluesky"
-      url: "https://bsky.app/profile/yourname.bsky.social"
