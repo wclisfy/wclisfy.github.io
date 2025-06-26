@@ -1,1 +1,5 @@
-research.md
+---
+layout: single
+title: "My Resarch"
+permalink: /research/
+---

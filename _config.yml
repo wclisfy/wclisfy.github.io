@@ -1,5 +1,5 @@
-title: "Willis Wong"
-subtitle: "Linguist"
+#title: "Willis Wong"
+#subtitle: "Linguist"
 description: "Personal academic website of Willis Wong"
 url: "https://wclisfy.github.io"
 
@@ -35,4 +35,4 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:wclis@gmail.com"
+      url: "mailto:wclisfy@gmail.com"

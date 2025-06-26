@@ -1,1 +1,5 @@
-contact.md
+---
+layout: single
+title: "Contact"
+permalink: /contact/
+---
