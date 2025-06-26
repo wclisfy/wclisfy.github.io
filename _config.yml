@@ -1,27 +1,34 @@
-# _config.yml (Corrected Version)
+# _config.yml (Final Corrected Version)
 
-url: "https://wclisfy.github.io"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Willis Wong"
+description: "Personal academic website of Willis Wong"
+baseurl: "" # the subpath of your site, e.g. /blog. For user pages, this is often blank.
+url: "https://wclisfy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Remote Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
 
+# Minimal Mistakes Theme Settings
 minimal_mistakes_skin: "contrast"
 
-google_fonts: 
-  - name: "Merriweather"
-    weights: "400,700"
-
-# 導覽列 menu bar
-nav:
-  - title: "CV"
-    url: /cv/
-  - title: "Research"
-    url: /research/
-  - title: "Contact"
-    url: /contact/
-
-# 作者簡介
+# Author Information
 author:
   name   : "Willis Wong"
   bio    : "A linguist working on morphology and its interfaces."
@@ -30,7 +37,7 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:wclisfy@gmail.com"
 
-# 全域預設值
+# Defaults for Posts and Pages
 defaults:
   # _posts
   - scope:
@@ -39,6 +46,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
   # _pages
   - scope:
       path: ""
