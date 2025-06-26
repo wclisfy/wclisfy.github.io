@@ -3,7 +3,7 @@ subtitle: "Linguist"
 description: "Personal academic website of Willis Wong"
 url: "https://wclisfy.github.io"
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "mint"
 
 google_fonts:
