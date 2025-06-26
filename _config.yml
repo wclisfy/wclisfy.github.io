@@ -3,22 +3,26 @@ subtitle: "Linguist"
 description: "Personal academic website of Willis Wong"
 url: "https://wclisfy.github.io"
 
+# ✅ 使用 remote theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "contrast"
 
+# ✅ 使用 Mint skin（你可以試下 air/sunrise）
+minimal_mistakes_skin: "mint"
+
+# ✅ 使用 sidebar layout
+layout: sidebar
+
+# ✅ Font 設定
 google_fonts:
   - name: "Merriweather"
     weights: "400,700"
 
-layout: sidebar
-
-plugins:
-  - jekyll-include-cache
-
+# ✅ 左邊 Author profile
 author:
   name   : "Willis Wong"
   avatar : "/assets/images/avatar.png"  # 放你張頭像
   bio    : "Linguist working on morphosyntax and sound symbolism."
+
   links:
     - label: "Email"
       icon: "fas fa-envelope"
@@ -30,6 +34,7 @@ author:
       icon: "fab fa-bluesky"
       url: "https://bsky.app/profile/yourname.bsky.social"
 
+# ✅ 上方 menu（navbar）
 nav:
   - title: "About"
     url: /about/
