@@ -1,0 +1,13 @@
+/* 字體大小調細啲 */
+body {
+  font-size: 16px; /* default 18px，可試 15px、14px */
+  line-height: 1.6;
+}
+
+.sidebar .author__name {
+  font-size: 1.1rem;  /* 頭像旁邊個名 */
+}
+
+.page__title {
+  font-size: 1.6rem; /* 頁面標題 */
+}
