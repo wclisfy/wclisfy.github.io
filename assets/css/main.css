@@ -5105,7 +5105,7 @@ body {
 }
 /* _sass/custom/custom.scss */
 body {
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
