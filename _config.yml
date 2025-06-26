@@ -9,6 +9,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # ✅ 使用 Mint skin（你可以試下 air/sunrise）
 minimal_mistakes_skin: "mint"
 
+plugins:
+  - jekyll-include-cache
+
 # ✅ 使用 sidebar layout
 layout: sidebar
 
