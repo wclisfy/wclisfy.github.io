@@ -9,7 +9,7 @@ classes: wide
 Distributed Morphology; Reduplication; Coordination Morphology
 
 **Morphology-Syntax Interface**
-Phase Locality; Labelling Algorithm
+Phase Locality; Labelling Algorithm; Linearisation; Interface Conditions
 
 **Prosody-Morphology Interface**
 Syllable Fusion; Prosodic Structure; Ideophones
