@@ -13,7 +13,7 @@ classes: wide
 
 ## Conference Presentations
 
-**Wong, W. C. L.** (February 2026, Accepted). ”A Tale of Two Grammars: A Cophonological Analysis of Iconic Phonology.” The Joint conference of the 4th Iconicity Seminar and the 15th International Symposium on Iconicity in Language and Literature (IcoLL2026), Nagoya, Japan.
+**Wong, W. C. L.** (February 2026). ”A Tale of Two Grammars: A Cophonological Analysis of Iconic Phonology.” The Joint conference of the 4th Iconicity Seminar and the 15th International Symposium on Iconicity in Language and Literature (IcoLL2026), Nagoya, Japan.
 
 **Wong, W. C. L.** (August 2025, Accepted). ”A Reduplicative Compass: Navigating Ambiguous Labels in Cantonese Coordination Morphology.” The 27th Seoul International Conference on Generative Grammar (SICOGG27), Seoul, South Korea.
 
