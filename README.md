@@ -12,7 +12,7 @@ Live at <https://wclisfy.github.io>.
 - New **warm & creative** theme (see `assets/css/style.css` + `_layouts/default.html`) replacing minimal-mistakes.
 - Real content: generative morphology, Cantonese reduplication, 5 conference presentations (FoCaL-7, WICL-7, FoCaL-8, SICOGG27, IcoLL2026).
 - SEO wired up: `jekyll-seo-tag`, `jekyll-sitemap`, JSON-LD `Person` schema, `robots.txt`, `/feed.xml`.
-- Conference handouts in `/conference-handouts/` are linked from `/research/` and `/cv/`.
+- Working papers and abstracts live in `/docs/` and are linked from `/research/` and `/cv/`.
 
 ## Deploy (you already have the pipeline)
 
@@ -56,7 +56,7 @@ Searching **"Willis Chun Lai Wong linguist"** or **"wclisfy"** will find you fas
 - `_config.yml` — site title, tagline, socials, affiliation.
 - `index.md` / `about.md` / `research.md` / `cv.md` — page content.
 - `_data/publications.yml` — add each new paper/talk here; `/research/` updates automatically.
-- `conference-handouts/` — drop PDFs here; reference with URL-encoded spaces, e.g. `2026%20IcoLL2026%20present.pdf`.
+- `docs/` — drop PDFs here (manuscripts, abstracts, handouts). Use dash-separated filenames so URLs stay clean, e.g. `2026-RNR-workshop-abstract.pdf`.
 - `assets/img/avatar.jpg` — profile photo (square). If missing, the hero still renders.
 - `assets/cv.pdf` — optional printable CV; the button on `/cv/` becomes live when present.
 
@@ -83,7 +83,7 @@ wclisfy.github.io/
 ├── assets/
 │   ├── css/style.css
 │   └── img/favicon.svg
-├── conference-handouts/*.pdf
+├── docs/*.pdf            # manuscripts, abstracts, handouts
 ├── index.md · about.md · research.md · cv.md
 ├── 404.md · robots.txt
 ├── Gemfile · .gitignore

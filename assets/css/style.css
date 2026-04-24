@@ -1,41 +1,41 @@
 /* ============================================================
-   Warm & creative theme for a linguist's personal site
-   - soft cream background, muted coral & terracotta accents
+   Cool & scholarly theme for a linguist's personal site
+   - pale mist background, muted slate & cerulean accents
    - serif display + clean sans body
    - responsive, minimal JS, accessible
 ============================================================ */
 
 :root {
-  --bg: #faf5ef;
-  --bg-elev: #fffaf3;
-  --ink: #2b241e;
-  --ink-soft: #5a4e44;
-  --muted: #8c7e72;
-  --rule: #e9dccb;
-  --accent: #c8553d;     /* terracotta */
-  --accent-soft: #f3d8cd;
-  --accent-ink: #7a2d1c;
-  --link: #a84127;
-  --link-hover: #7a2d1c;
+  --bg: #f3f6fa;                         /* pale cool mist */
+  --bg-elev: #fbfcfe;                    /* card / elevated surface */
+  --ink: #111827;                        /* deep slate, near-black */
+  --ink-soft: #374151;                   /* secondary body */
+  --muted: #6b7a8c;                      /* meta / captions */
+  --rule: #dae2ec;                       /* dividers */
+  --accent: #3b6b8f;                     /* cerulean-slate */
+  --accent-soft: #e1ecf4;                /* soft tint */
+  --accent-ink: #1e3a52;                 /* hover / dark accent */
+  --link: #2f5d80;
+  --link-hover: #1e3a52;
   --radius: 14px;
-  --shadow: 0 10px 30px rgba(90, 50, 30, 0.08);
+  --shadow: 0 10px 30px rgba(30, 58, 82, 0.08);
   --maxw: 820px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1b1714;
-    --bg-elev: #221c18;
-    --ink: #f2e8dd;
-    --ink-soft: #d6c8b8;
-    --muted: #9d8d7e;
-    --rule: #3a2f27;
-    --accent: #e6836b;
-    --accent-soft: #3a221a;
-    --accent-ink: #f5c5b4;
-    --link: #e6836b;
-    --link-hover: #f5c5b4;
-    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    --bg: #0f1620;                       /* deep navy-slate */
+    --bg-elev: #172231;
+    --ink: #e6edf5;
+    --ink-soft: #c2cedb;
+    --muted: #8a99ac;
+    --rule: #2a3648;
+    --accent: #7aa8cc;                   /* cool sky */
+    --accent-soft: #1c2b3d;
+    --accent-ink: #cde3f4;
+    --link: #8fbfe3;
+    --link-hover: #cde3f4;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
   }
 }
 

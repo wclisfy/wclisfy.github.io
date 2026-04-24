@@ -1,7 +1,6 @@
 # Conference presentations and talks.
 # Render automatically on /research/.
 # Each entry: title, authors, year, date, venue, type, links.
-# Filenames with spaces are URL-encoded (%20) in the link URLs.
 
 - title: "A Tale of Two Grammars: A Cophonological Analysis of Iconic Phonology"
   authors: "Wong, W. C. L."
@@ -9,17 +8,15 @@
   date: "February 2026"
   venue: "Joint conference of the 4th Iconicity Seminar and the 15th International Symposium on Iconicity in Language and Literature (IcoLL2026), Nagoya, Japan"
   type: presentation
-  links:
-    handout: "/conference-handouts/2026%20IcoLL2026%20present.pdf"
+  links: {}
 
 - title: "A Reduplicative Compass: Navigating Ambiguous Labels in Cantonese Coordination Morphology"
   authors: "Wong, W. C. L."
   year: 2025
-  date: "August 2025 (Accepted)"
+  date: "August 2025"
   venue: "27th Seoul International Conference on Generative Grammar (SICOGG27), Seoul, South Korea"
   type: proceedings
-  links:
-    handout: "/conference-handouts/2025%20sicogg27%20proceedings.pdf"
+  links: {}
 
 - title: "Too Expressive to Fuse? Phonological Integrity in Cantonese Ideophones"
   authors: "Wong, W. C. L."
@@ -27,8 +24,7 @@
   date: "June 2025"
   venue: "8th Forum on Cantonese Linguistics (FoCaL-8), Hong Kong"
   type: presentation
-  links:
-    handout: "/conference-handouts/2025%20focal8%20handout.pdf"
+  links: {}
 
 - title: "Structure Determines Form: A Phase Account of Cantonese Reduplication"
   authors: "Wong, W. C. L."
