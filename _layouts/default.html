@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% seo %}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  {% if site.google_site_verification and site.google_site_verification != "" %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+  {% endif %}
+
+  {% comment %} JSON-LD Person schema helps Google understand you as an author {% endcomment %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author | default: site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "jobTitle": "Linguist",
+    {% if site.affiliation.institution != "" %}
+    "affiliation": { "@type": "Organization", "name": "{{ site.affiliation.institution }}" },
+    {% endif %}
+    "sameAs": [
+      {% if site.social.google_scholar != "" %}"{{ site.social.google_scholar }}",{% endif %}
+      {% if site.social.orcid != "" %}"https://orcid.org/{{ site.social.orcid }}",{% endif %}
+      {% if site.social.github != "" %}"https://github.com/{{ site.social.github }}",{% endif %}
+      {% if site.social.linkedin != "" %}"https://www.linkedin.com/in/{{ site.social.linkedin }}/",{% endif %}
+      {% if site.social.twitter != "" %}"https://twitter.com/{{ site.social.twitter }}"{% endif %}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-text">{{ site.title }}</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© {{ site.time | date: "%Y" }} {{ site.author | default: site.title }}. Made with care ·
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

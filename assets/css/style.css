@@ -1,0 +1,232 @@
+/* ============================================================
+   Warm & creative theme for a linguist's personal site
+   - soft cream background, muted coral & terracotta accents
+   - serif display + clean sans body
+   - responsive, minimal JS, accessible
+============================================================ */
+
+:root {
+  --bg: #faf5ef;
+  --bg-elev: #fffaf3;
+  --ink: #2b241e;
+  --ink-soft: #5a4e44;
+  --muted: #8c7e72;
+  --rule: #e9dccb;
+  --accent: #c8553d;     /* terracotta */
+  --accent-soft: #f3d8cd;
+  --accent-ink: #7a2d1c;
+  --link: #a84127;
+  --link-hover: #7a2d1c;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(90, 50, 30, 0.08);
+  --maxw: 820px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1714;
+    --bg-elev: #221c18;
+    --ink: #f2e8dd;
+    --ink-soft: #d6c8b8;
+    --muted: #9d8d7e;
+    --rule: #3a2f27;
+    --accent: #e6836b;
+    --accent-soft: #3a221a;
+    --accent-ink: #f5c5b4;
+    --link: #e6836b;
+    --link-hover: #f5c5b4;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--accent); color: #fff; padding: 8px 12px;
+}
+.skip-link:focus { left: 8px; top: 8px; z-index: 100; }
+
+/* --- Layout --- */
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.site-header {
+  padding: 1.75rem 0 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+.site-header .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+}
+.brand {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  text-decoration: none; color: var(--ink);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.4rem; font-weight: 600; letter-spacing: -0.01em;
+}
+.brand-mark { color: var(--accent); font-size: 1.2rem; }
+.site-nav { display: flex; gap: 1.1rem; flex-wrap: wrap; }
+.site-nav a {
+  text-decoration: none; color: var(--ink-soft);
+  font-weight: 500; font-size: 0.98rem;
+  padding: 0.25rem 0; border-bottom: 2px solid transparent;
+  transition: color .15s, border-color .15s;
+}
+.site-nav a:hover { color: var(--accent); border-color: var(--accent); }
+
+.site-main { padding: 2.5rem 0 3.5rem; }
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.5rem 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.site-footer a { color: var(--muted); }
+.site-footer a:hover { color: var(--accent); }
+
+/* --- Typography --- */
+h1, h2, h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: var(--ink);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 2rem 0 0.6rem;
+}
+h1 { font-size: 2.4rem; margin-top: 0.5rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.2rem; font-family: inherit; font-weight: 600; }
+p { margin: 0 0 1.1rem; color: var(--ink-soft); }
+a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+a:hover { color: var(--link-hover); }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+/* --- Hero (home) --- */
+.hero {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.75rem;
+  align-items: center;
+  padding: 1.5rem 0 0.5rem;
+}
+.hero-avatar {
+  width: 140px; height: 140px; border-radius: 50%;
+  object-fit: cover;
+  background: var(--accent-soft);
+  box-shadow: var(--shadow);
+  border: 4px solid var(--bg-elev);
+}
+.hero h1 { margin: 0 0 0.3rem; }
+.hero .tagline {
+  color: var(--accent);
+  font-weight: 500;
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+.hero .lead {
+  color: var(--ink-soft);
+  margin: 0;
+}
+@media (max-width: 560px) {
+  .hero { grid-template-columns: 1fr; text-align: left; }
+  .hero-avatar { width: 110px; height: 110px; }
+}
+
+/* --- Social row --- */
+.social {
+  margin: 1.25rem 0 0; padding: 0; list-style: none;
+  display: flex; flex-wrap: wrap; gap: 0.5rem;
+}
+.social a {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--bg-elev);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background .15s, color .15s, border-color .15s, transform .15s;
+}
+.social a:hover {
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+  border-color: var(--accent-soft);
+  transform: translateY(-1px);
+}
+
+/* --- Cards / lists --- */
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--shadow);
+  margin: 1rem 0;
+}
+
+.pub-list { list-style: none; padding: 0; margin: 1rem 0; }
+.pub-list li {
+  padding: 1rem 0;
+  border-bottom: 1px dashed var(--rule);
+}
+.pub-list li:last-child { border-bottom: 0; }
+.pub-title { font-weight: 600; color: var(--ink); }
+.pub-venue { color: var(--muted); font-style: italic; font-size: 0.95rem; }
+.pub-year {
+  display: inline-block; margin-right: 0.6rem;
+  color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 600;
+}
+.pub-links { margin-top: 0.25rem; font-size: 0.9rem; }
+.pub-links a { margin-right: 0.8rem; }
+
+/* --- Section headings with flourish --- */
+.section-heading {
+  display: flex; align-items: baseline; gap: 0.6rem;
+  margin-top: 2.5rem;
+}
+.section-heading::after {
+  content: ""; flex: 1; height: 1px; background: var(--rule);
+  transform: translateY(-4px);
+}
+
+/* --- Buttons --- */
+.btn {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  background: var(--accent);
+  color: #fff !important;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background .15s, transform .15s;
+}
+.btn:hover { background: var(--link-hover); transform: translateY(-1px); }
+.btn-ghost {
+  background: transparent;
+  color: var(--accent) !important;
+  border: 1.5px solid var(--accent);
+}
+.btn-ghost:hover { background: var(--accent-soft); }
+
+/* --- Utility --- */
+.muted { color: var(--muted); }
+.small { font-size: 0.92rem; }
+.center { text-align: center; }
+
+/* --- Font: pull Playfair from Google Fonts (optional, falls back gracefully) --- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');

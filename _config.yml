@@ -1,46 +1,56 @@
-# _config.yml (THE 100% TESTED AND WORKING VERSION)
-
-# Site Settings
-title: "wclisfy"
+# ===== Site settings =====
+title: "Willis Chun Lai Wong"
+tagline: "Generative Morphologist · MPhil in Linguistics, CUHK"
+description: >-
+  Personal website of Willis Chun Lai Wong, a linguist working on generative
+  morphology, morphology–syntax interface, and prosody–morphology interface at
+  The Chinese University of Hong Kong.
+author: "Willis Chun Lai Wong"
+email: "wclisfy@gmail.com"
 url: "https://wclisfy.github.io"
 baseurl: ""
+lang: "en"
+timezone: "Asia/Hong_Kong"
 
-# Theme Settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "contrast"
+# ===== Social / profile links (leave blank to hide) =====
+social:
+  google_scholar: ""
+  orcid: ""
+  github: "wclisfy"
+  twitter: ""
+  linkedin: ""
+  instagram: "sememeotics"   # your @sememeotics
+  academia: ""
+  osf: ""
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-include-cache
-
-# Author Information
-author:
-  name: "Willis Chun Lai Wong"
-  bio: "Generative Morphologist"
+# ===== Affiliation =====
+affiliation:
+  institution: "Department of Linguistics and Modern Languages, The Chinese University of Hong Kong"
   location: "Hong Kong"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:wclisfy@gmail.com"
-    - label: "@sememeotics"
-      icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/sememeotics/"
 
-# Defaults for Posts and Pages (This is the corrected part)
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author_profile: true
+# ===== SEO / indexing =====
+twitter:
+  username: ""
+  card: summary_large_image
+logo: /assets/img/favicon.svg
+google_site_verification: ""   # paste value from Google Search Console
+
+# ===== Jekyll build =====
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - "*.gemspec"
+
+# Remove the old theme so our own layout takes over
+theme: null
