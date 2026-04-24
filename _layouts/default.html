@@ -32,14 +32,13 @@
   }
   </script>
 </head>
-<body>
+<body class="page-{{ page.title | default: 'home' | downcase | replace: ' ', '-' }}">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="{{ '/' | relative_url }}">
-        <span class="brand-mark" aria-hidden="true">✦</span>
-        <span class="brand-text">{{ site.title }}</span>
+        <span class="brand-text">Willis Wong</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="{{ '/' | relative_url }}">Home</a>
@@ -58,7 +57,8 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>© {{ site.time | date: "%Y" }} {{ site.author | default: site.title }}. Made with care ·
+      <p>
+        © {{ site.time | date: "%Y" }} {{ site.author | default: site.title }} ·
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       </p>
     </div>

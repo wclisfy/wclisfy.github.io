@@ -2,78 +2,196 @@
 layout: default
 title: "CV"
 permalink: /cv/
-description: "Curriculum vitae of Willis Chun Lai Wong — MPhil in Linguistics, CUHK. Theoretical syntax; labeling theory; Distributed Morphology."
+description: "Curriculum vitae of Willis Chun Lai Wong — MPhil in Linguistics, CUHK."
 ---
 
 <h1>Curriculum Vitae</h1>
 
+<p class="muted small">
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a> · +852 6082 9754 ·
+  <a href="{{ '/assets/cv.pdf' | relative_url }}">PDF</a>
+</p>
+
 <h2 class="section-heading">Education</h2>
 
-<div class="card">
-  <h3>MPhil in Linguistics</h3>
-  <p class="muted small">The Chinese University of Hong Kong · in progress</p>
-</div>
+<p>
+  <span class="pub-year">2023–2026</span>
+  <strong>MPhil in Linguistics</strong>, The Chinese University of Hong Kong.
+  <span class="muted small"> Expected July 2026.</span>
+  <br>
+  <span class="muted">Thesis: <em>The Architecture of Reduplication: Structural (A)symmetries in Cantonese Adjectives</em>.</span>
+</p>
 
-<div class="card">
-  <h3>BA in Linguistics (First Class Honours)</h3>
-  <p class="muted small">The Chinese University of Hong Kong</p>
-</div>
+<p>
+  <span class="pub-year">2020–2023</span>
+  <strong>BA in Linguistics</strong>, First Class Honours, The Chinese University of Hong Kong.
+  <span class="muted small"> Major GPA 3.88.</span>
+</p>
 
-<h2 class="section-heading">Working papers</h2>
+<h2 class="section-heading">Research experience</h2>
 
-<ul class="pub-list">
-  <li>
-    <div>
-      <span class="pub-year">ms.</span>
-      <span class="pub-title">If You Can't Break It, Keep It: Choiceless Computation under Syntactic Symmetry</span>
-    </div>
-    <div class="pub-venue">Wong, W. C. L. <em>Manuscript, under submission</em>.</div>
-    <div class="pub-links"><a href="{{ '/docs/if-you-cant-break-it-keep-it-manuscript.pdf' | relative_url }}">manuscript</a></div>
-  </li>
-  <li>
-    <div>
-      <span class="pub-year">2026</span>
-      <span class="pub-title">Caught Between Two Nodes: The Choiceless Computation of Right Node Raising</span>
-    </div>
-    <div class="pub-venue">Wong, W. C. L. <em>Abstract, Rightward Movement Workshop</em>.</div>
-    <div class="pub-links"><a href="{{ '/docs/2026-RNR-workshop-abstract.pdf' | relative_url }}">abstract</a></div>
-  </li>
-</ul>
+<p>
+  <span class="pub-year">2025</span>
+  <strong>Research Assistant</strong> (part-time), School of Arts and Social
+  Sciences, Hong Kong Metropolitan University. Jul–Dec 2025.
+</p>
+
+<p>
+  <span class="pub-year">2023</span>
+  <strong>Research Assistant</strong>, Department of Linguistics and Modern
+  Languages, The Chinese University of Hong Kong. May–Jul 2023.
+</p>
+
+<p>
+  <span class="pub-year">2021–23</span>
+  <strong>Student Intern</strong>, Brain and Mind Institute, The Chinese
+  University of Hong Kong. Nov 2021 – May 2023.
+  <br>
+  <span class="muted small">
+    Assisted a project on parent-implemented language intervention for
+    Chinese-learning autistic preschoolers. Published in <em>Journal of
+    Communication Disorders</em> (PubMed ID: 39608127).
+  </span>
+</p>
+
+<h2 class="section-heading">Teaching</h2>
+
+<p class="muted small">
+  Teaching Assistant, Department of Linguistics and Modern Languages, CUHK.
+</p>
+
+<p>
+  <span class="pub-year">2025–26</span> Material preparation, <strong>LING5602</strong> Special Topics in Linguistics: Corpus Linguistics.
+</p>
+<p>
+  <span class="pub-year">2024–25</span> Handout preparation, <strong>LING1002</strong> Exploring Grammar: Cantonese.
+</p>
+<p>
+  <span class="pub-year">2023–24</span> Teaching Assistant, <strong>LING3104</strong> Syntax II.
+</p>
+<p>
+  <span class="pub-year">2023–24</span> Teaching Assistant, <strong>LING2008</strong> Linguistic Argumentation II.
+</p>
+
+<h2 class="section-heading">Proceedings</h2>
+
+<p>
+  <span class="pub-year">2025</span>
+  Wong, W. C. L.
+  A Reduplicative Compass: Navigating Ambiguous Labels in Chinese Coordination Morphology.
+  <em>Proceedings of the 27th Seoul International Conference on Generative Grammar (SICOGG27)</em>.
+  Seoul: Korean Generative Grammar Circle.
+</p>
+
+<h2 class="section-heading">Invited presentation</h2>
+
+<p>
+  <span class="pub-year">Mar 2026</span>
+  Wong, W. C. L.
+  Unfolding the Chaos of Sinitic Adjectival Reduplication.
+  <em>Invited talk, CUHK Syntax Workshop</em>, The Chinese University of Hong Kong.
+</p>
 
 <h2 class="section-heading">Conference presentations</h2>
 
 <ul class="pub-list">
   <li>
-    <div><span class="pub-year">Feb 2026</span>
-    <span class="pub-title">A Tale of Two Grammars: A Cophonological Analysis of Iconic Phonology</span></div>
-    <div class="pub-venue">Wong, W. C. L. <em>Joint conference of the 4th Iconicity Seminar and the 15th International Symposium on Iconicity in Language and Literature (IcoLL2026), Nagoya, Japan</em>.</div>
+    <span class="pub-year">Jul 2026</span>
+    <span class="pub-title">Caught Between Two Nodes: The Choiceless Computation of Right Node Raising</span>
+    <span class="muted small"> · under review</span>
+    <div class="pub-venue">Wong, W. C. L. <em>Workshop: Rightward Movement, London, UK</em>.</div>
+    <div class="pub-links"><a href="{{ '/docs/2026-RNR-workshop-abstract.pdf' | relative_url }}">abstract</a></div>
   </li>
   <li>
-    <div><span class="pub-year">Aug 2025</span>
-    <span class="pub-title">A Reduplicative Compass: Navigating Ambiguous Labels in Cantonese Coordination Morphology</span></div>
-    <div class="pub-venue">Wong, W. C. L. <em>27th Seoul International Conference on Generative Grammar (SICOGG27), Seoul, South Korea</em>.</div>
+    <span class="pub-year">Jul 2026</span>
+    <span class="pub-title">Intra/ter-Phasal (A)symmetry in Cantonese Adjectival Reduplication</span>
+    <span class="muted small"> · under review</span>
+    <div class="pub-venue">Wong, W. C. L. <em>CALA-1 / FoCaL-9 Joint Conference, Hong Kong</em>.</div>
   </li>
   <li>
-    <div><span class="pub-year">Jun 2025</span>
-    <span class="pub-title">Too Expressive to Fuse? Phonological Integrity in Cantonese Ideophones</span></div>
-    <div class="pub-venue">Wong, W. C. L. <em>8th Forum on Cantonese Linguistics (FoCaL-8), Hong Kong</em>.</div>
+    <span class="pub-year">Jun 2026</span>
+    <span class="pub-title">Beyond Symmetry Breaking: Bare Roots and Global Convergence in Sinitic</span>
+    <span class="muted small"> · under review</span>
+    <div class="pub-venue">Wong, W. C. L. <em>TEAL-15, Hong Kong</em>.</div>
   </li>
   <li>
-    <div><span class="pub-year">Apr 2025</span>
-    <span class="pub-title">Structure Determines Form: A Phase Account of Cantonese Reduplication</span></div>
-    <div class="pub-venue">Wong, W. C. L. <em>Workshop on Innovations in Cantonese Linguistics 7 (WICL-7), Provo, UT, USA</em>.</div>
+    <span class="pub-year">Feb 2026</span>
+    <span class="pub-title">A Tale of Two Grammars: A Cophonological Analysis of Iconic Phonology</span>
+    <div class="pub-venue">Wong, W. C. L. <em>IcoLL2026, Nagoya, Japan</em>.</div>
   </li>
   <li>
-    <div><span class="pub-year">Jun 2024</span>
-    <span class="pub-title">Morphological Analysis of Cantonese Reduplicated Adjectives and their Theoretical Implications</span></div>
-    <div class="pub-venue">Wong, W. C. L. <em>7th Forum on Cantonese Linguistics (FoCaL-7), Hong Kong</em>.</div>
+    <span class="pub-year">Oct 2025</span>
+    <span class="pub-title">Phasal Syntax in Word Formation: Deriving Partial and Full Adjectival Reduplication in Cantonese</span>
+    <span class="muted small"> · accepted, not presented</span>
+    <div class="pub-venue">Wong, W. C. L. <em>ISMo-5, Lille, France</em>.</div>
+  </li>
+  <li>
+    <span class="pub-year">Aug 2025</span>
+    <span class="pub-title">A Reduplicative Compass: Navigating Ambiguous Labels in Chinese Coordination Morphology</span>
+    <div class="pub-venue">Wong, W. C. L. <em>SICOGG27, Seoul, South Korea</em>.</div>
+  </li>
+  <li>
+    <span class="pub-year">Jun 2025</span>
+    <span class="pub-title">Too Expressive to Fuse? Phonological Integrity in Cantonese Ideophones</span>
+    <div class="pub-venue">Wong, W. C. L. <em>FoCaL-8, Hong Kong</em>.</div>
+  </li>
+  <li>
+    <span class="pub-year">Apr 2025</span>
+    <span class="pub-title">Structure Determines Form: A Phase Account of Cantonese Reduplication</span>
+    <div class="pub-venue">Wong, W. C. L. <em>WICL-7, Provo, UT, USA</em>.</div>
+  </li>
+  <li>
+    <span class="pub-year">Jun 2024</span>
+    <span class="pub-title">Morphological Analysis of Cantonese Reduplicated Adjectives and their Theoretical Implications</span>
+    <div class="pub-venue">Wong, W. C. L. <em>FoCaL-7, Hong Kong</em>.</div>
   </li>
 </ul>
 
+<h2 class="section-heading">Academic service</h2>
+
+<p>
+  <span class="pub-year">2025</span>
+  Reviewer, Joint conference of the 4th Iconicity Seminar and the 15th
+  International Symposium on Iconicity in Language and Literature (IcoLL2026).
+</p>
+
+<h2 class="section-heading">Awards &amp; scholarships</h2>
+
+<p>
+  <span class="pub-year">2023–25</span>
+  Postgraduate Studentship, Department of Linguistics and Modern Languages, CUHK.
+</p>
+<p>
+  <span class="pub-year">2022, 2023</span>
+  Dean's List, Faculty of Arts, CUHK.
+</p>
+<p>
+  <span class="pub-year">2022, 2023</span>
+  Head's List (Merit), New Asia College, CUHK.
+</p>
+<p>
+  <span class="pub-year">2022</span>
+  Mr. and Mrs. Chan Foo Chuen Scholarships, New Asia College, CUHK.
+</p>
+
+<h2 class="section-heading">Extracurricular</h2>
+
+<p>
+  <span class="pub-year">2022–23</span>
+  External Vice President, The Society of Linguistics and Modern Languages, CUHK.
+</p>
+
+<h2 class="section-heading">Technical skills</h2>
+
+<p>
+  <strong>Computing.</strong> Corpus Linguistics, Google Workspace, Office 365.
+  <strong>Experimental tools.</strong> Audacity, CLAN, Praat, PsychoPy.
+  <strong>Programming.</strong> C++, LaTeX, Python, RStudio.
+</p>
+
 <h2 class="section-heading">Languages</h2>
 
-<p>Cantonese (native) · English · Mandarin.</p>
-
-<p class="muted small">
-  A printable PDF of this CV can be added at <code>assets/cv.pdf</code>.
+<p>
+  Cantonese (native) · English (C2) · Mandarin (fluent) · French (basic) ·
+  Japanese (basic).
 </p>
