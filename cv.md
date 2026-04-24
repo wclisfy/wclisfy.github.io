@@ -21,6 +21,7 @@ description: "Curriculum vitae of Willis Chun Lai Wong — MPhil in Linguistics,
 
 <h2 class="section-heading">Conference presentations</h2>
 
+<<<<<<< HEAD
 <ul class="pub-list">
   <li>
     <div><span class="pub-year">Feb 2026</span>
@@ -51,6 +52,12 @@ description: "Curriculum vitae of Willis Chun Lai Wong — MPhil in Linguistics,
     <div class="pub-venue">Wong, W. C. L. <em>7th Forum on Cantonese Linguistics (FoCaL-7), Hong Kong</em>.</div>
   </li>
 </ul>
+=======
+**Wong, W. C. L. (June 2025)**. “Too Expressive to Fuse? Phonological Integrity in Cantonese Ideophones.” 
+Presented at The 8th Forum on Cantonese Linguistics (FoCaL-8), Hong Kong. 
+[Handout](https://github.com/wclisfy/wclisfy.github.io/blob/591398f24adb22cd701da76798b29f3fc06ffa50/conference-handouts/2025%20focal8%20handout.pdf)
+
+>>>>>>> 75a5b460c45c1ac140d046009529a51b153f8caf
 
 <h2 class="section-heading">Languages</h2>
 
